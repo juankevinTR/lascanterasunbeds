@@ -1,24 +1,8 @@
-######################################################
-######################################################
-#   IGNORED BY THE PROJECT'S TEAM
-######################################################
-######################################################
-
-
-
-######################################################
-######################################################
-#   AUTO-GENERATED AND MODIFIED
-######################################################
-######################################################
-
-
-
-######################################################
-######################################################
+############################################################
+############################################################
 #   USING https://www.gitignore.io
-######################################################
-######################################################
+############################################################
+############################################################
 
 # Created by https://www.gitignore.io/api/node,java,linux,macos,maven,windows,eclipse,angular,netbeans,notepadpp,sublimetext,intellij+all,visualstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,java,linux,macos,maven,windows,eclipse,angular,netbeans,notepadpp,sublimetext,intellij+all,visualstudio,visualstudiocode
@@ -806,3 +790,80 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/node,java,linux,macos,maven,windows,eclipse,angular,netbeans,notepadpp,sublimetext,intellij+all,visualstudio,visualstudiocode
+
+
+############################################################
+############################################################
+#   IGNORED BY THE PROJECT'S TEAM
+############################################################
+############################################################
+
+
+
+############################################################
+############################################################
+#   AUTO-GENERATED AND MODIFIED
+############################################################
+############################################################
+
+##############################
+# Server Module
+##############################
+
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.settings
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+##############################
+# Web Module
+##############################
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.c9/
+
+# IDE - VSCode
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+yarn-error.log
+/typings
+
